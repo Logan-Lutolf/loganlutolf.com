@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="icon" type="image" href="./public/logan.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logan Lutolf</title>
+  </head>
+  <body class="flex flex-col">
+
+    <header class="header bg-gray-800 h-16 flex items-center justify-between text-white px-7 text-xl font-bold">
+      <div class="name"> Logan Lutolf </div>
+      <div class="flex items-center gap-10">
+        <a href=""> Home </a>
+        <a href="#about"> About </a>
+        <a href="#projects"> Projects </a>
+      </div>
+    </header>
+
+    <section class="banner bg-gray-700 h-105 flex items-center justify-center text-white">
+      <div class="">
+        <p class="font-bold text-7xl mb-4"> Hi, I'm Logan :) </p>
+        <p class="font-semibold text-xl"> Computer Science Student • Aspiring Software Dev </p>
+      </div>
+      <img src="./public/logan.jpg" alt="" class="rounded-full h-80 object-cover ml-10">
+    </section>
+
+    <section class="about flex flex-col items-center h-100 bg-gray-100 pt-9" id="about">
+      <p class="underline underline-offset-10 text-2xl"> About Me </p>
+
+      <p class="summary pt-8"> Hi there! I'm Logan, a sophomore Computer Science student at Worcester Polytechnic Institute (WPI). </p>
+
+      <p class="summary2 pb-10"> Check out my skills and projects below! </p>
+
+      <p class="PLandS pb-2">
+        <span class="font-semibold">Programming Languages & Software:</span>
+        Java, JavaScript, Python, C, C++, SQL, HTML5, CSS, TailwindCSS, React, Visual Studio, IntelliJ, Git, Oracle SQL Developer, JDBC
+      </p>
+
+      <p class="skills pb-15"> <span class="font-semibold">CS Skills:</span>
+        Object-Oriented Programming, Systems Programming, Algorithm Development, Database Management, Agile and Scrum Methodologies
+      </p>
+
+      <div class="links flex gap-10">
+        <a href="https://github.com/Logan-Lutolf">
+          <img src="./public/github.svg" alt="" class="w-12">
+        </a>
+        <a href="https://www.linkedin.com/in/logan-lutolf">
+          <img src="./public/linkedin.svg" alt="" class="w-12">
+        </a>
+        <a href="mailto:loganlutolf@gmail.com">
+          <img src="./public/gmail.svg" alt="" class="w-12">
+        </a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="projects-grid bg-gray-200 px-10 py-14 grid grid-cols-3 justify-items-center gap-10">
+        <article class="w-90 h-110 bg-gray-50 rounded-4xl flex flex-col shadow-2xl hover:-translate-x-2 hover:-translate-y-5 hover:transition hover:transition-duration-1000 transition transition-duration-1000">
+          <img src="./public/erd.png" alt="" class="w-full rounded-t-4xl h-50 object-cover">
+
+          <div class="flex flex-col p-4">
+            <p class="font-bold text-xl pb-1"> Hospital Database </p>
+            <p> Designed and implemented a mock hospital database complete with 13 relations, 20+ SQL queries, views, and triggers.
+            Also utilized JDBC to construct a program to retrieve patient, doctor, and admission data. </p>
+          </div>
+
+          <div class="tags pt-4 pl-4">
+            <span class="inline-block border rounded-2xl px-3 mr-1"> SQL </span>
+            <span class="inline-block border rounded-2xl px-3 mx-1"> Java </span>
+            <span class="inline-block border rounded-2xl px-3 mx-1"> JDBC </span>
+          </div>
+        </article>
+
+        <article class="w-90 h-110 bg-gray-50 rounded-4xl flex flex-col shadow-2xl hover:-translate-x-2 hover:-translate-y-5 hover:transition hover:transition-duration-1000 transition transition-duration-1000">
+          <img src="./public/fruit-picking-robot.png" alt="" class="w-full rounded-t-4xl h-50 object-cover">
+
+          <div class="flex flex-col p-4">
+            <p class="font-bold text-xl pb-1"> Fruit Picking Robot </p>
+            <p>Collaborated with a team of four to design and build a robot capable of semi-autonomously picking artificial fruits from PVC pipe “trees” using a proportional control algorithm. </p>
+          </div>
+
+          <div class="tags pt-4 pl-4">
+            <span class="inline-block border rounded-2xl px-3 mr-1"> Python </span>
+          </div>
+        </article>
+
+        <article class="w-90 h-110 bg-gray-50 rounded-4xl flex flex-col shadow-2xl hover:-translate-x-2 hover:-translate-y-5 hover:transition hover:transition-duration-1000 transition transition-duration-1000">
+          <img src="./public/photo-booth.JPG" alt="" class="w-full rounded-t-4xl h-50 object-cover">
+
+          <div class="flex flex-col p-4">
+            <p class="font-bold text-xl pb-1"> Logan Lutolf Photography (WIP)</p>
+            <p> Currently developing a multi-paged website for my photography hobby using HTML and TailwindCSS. As it is larger than other websites I've made, I am teaching myself
+              React to streamline scalability and interactivity.
+            </p>
+          </div>
+
+          <div class="tags pt-4 pl-4">
+            <span class="inline-block border rounded-2xl px-3 mr-1"> HTML </span>
+            <span class="inline-block border rounded-2xl px-3 mr-1"> TailwindCSS </span>
+            <span class="inline-block border rounded-2xl px-3 mr-1"> JavaScript </span>
+          </div>
+        </article>
+
+        <article class="w-90 h-110 bg-gray-50 rounded-4xl flex flex-col shadow-2xl hover:-translate-x-2 hover:-translate-y-5 hover:transition hover:transition-duration-1000 transition transition-duration-1000">
+          <img src="./public/website-icon-18.png" alt="" class="w-full rounded-t-4xl h-50 object-contain">
+
+          <div class="flex flex-col p-4">
+            <p class="font-bold text-xl pb-1"> More to come... </p>
+            <p> Throughout the year I will be working on many more projects, and will put them here! I'll also be adding more pages and detail to this site. </p>
+          </div>
+
+          <div class="tags pt-4 pl-4">
+            <span class="inline-block border rounded-2xl px-3 mr-1"> Linux </span>
+            <span class="inline-block border rounded-2xl px-3 mr-1"> Full Stack Development </span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer h-30 bg-gray-100 flex flex-col items-center">
+      <a class="text-2xl font-semibold pt-12 hover:text-blue-400 hover:transition hover:transition-duration-500" href="/LoganLutolfResume.pdf" download>
+        Download My Resume!
+      </a>
+    </footer>
+  </body>
+</html>
