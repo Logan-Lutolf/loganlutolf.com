@@ -5,5 +5,5 @@ export default defineConfig({
     plugins: [
         tailwindcss(),
     ],
-    base: "/Logan-Lutolf-Website"
+    base: "/loganlutolf.com",
 })
