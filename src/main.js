@@ -1,10 +1,7 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
-import githubLogo from './github.svg'
-import linkedinLogo from './linkedin.svg'
-import gmailLogo from './gmail.svg'
+import githubLogo from '../public/github.svg'
+import linkedinLogo from '../public/linkedin.svg'
+import gmailLogo from '../public/gmail.svg'
 
 
 
