@@ -1,8 +1,4 @@
 import './style.css'
-import githubLogo from './github.svg'
-import linkedinLogo from './linkedin.svg'
-import gmailLogo from './gmail.svg'
-
 
 
 
